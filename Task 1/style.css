@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: #f9f9f9; /* light gray background */
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.container {
+    width: 80%; /* set container width to 80% of screen */
+    margin: 40px auto; /* center container horizontally */
+    text-align: center; /* center content horizontally */
+}
+
+img {
+    width: 15%;
+    margin-bottom: 10px; /* add space below image */
+    mix-blend-mode: multiply; /* add mix-blend mode */
+}
+
+h1 {
+    color: #333; /* dark gray heading */
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-family: "Merriweather", serif;
+}
+
+p {
+    color: #666; /* medium gray paragraph */
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease; /* add transition for color and font-size */
+}
+
+/* Add a hover effect to see the transition in action */
+p:hover {
+    color: #000; /* change color to black on hover */
+    font-size: 20px; /* increase font size on hover */
+}
+
+.line {
+    font-family: "Poppins", sans-serif;
+    width: 50%;
+    margin: 0 auto; /* center the line horizontally */
+    text-align: center; /* optional: center the text inside the paragraph */
+}
